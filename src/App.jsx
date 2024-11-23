@@ -5,6 +5,7 @@ import "./App.css";
 import Question1 from "./components/Question1.jsx";
 import Question2 from "./components/Question2.jsx";
 import Question3 from "./components/Question3.jsx";
+import Question4 from "./components/Question4.jsx";
 
 function App() {
   let countriesEA = [
@@ -33,7 +34,8 @@ function App() {
         {/*  <Question1 /> */}
         {/*  <Question2 /> */}
 
-        <Question3 list={countriesEA} />
+        {/* <Question3 list={countriesEA} /> */}
+        <Question4 />
       </div>
       <p className="read-the-docs">Challenge</p>
     </>

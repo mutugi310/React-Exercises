@@ -10,3 +10,6 @@ Create a React component with a button that toggles the visibility of a paragrap
 
 Question 3:
 Create a React component that takes a list of items as a prop and displays each item in a list. Additionally, add a button next to each item that, when clicked, removes that item from the list.
+
+Question 4:
+Create a simple form in React with an input field for a user’s name and a submit button. When the form is submitted, display an alert with the entered name. Make sure to prevent the form’s default refresh behavior on submit.
