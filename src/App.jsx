@@ -6,6 +6,7 @@ import Question1 from "./components/Question1.jsx";
 import Question2 from "./components/Question2.jsx";
 import Question3 from "./components/Question3.jsx";
 import Question4 from "./components/Question4.jsx";
+import Question5 from "./components/Question5.jsx";
 
 function App() {
   let countriesEA = [
@@ -30,14 +31,17 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+
       <div className="card">
+        <h2 className="text-xl py-4">Challenges</h2>
         {/*  <Question1 /> */}
         {/*  <Question2 /> */}
 
         {/* <Question3 list={countriesEA} /> */}
-        <Question4 />
+        {/*  <Question4 /> */}
+
+        <Question5 />
       </div>
-      <p className="read-the-docs">Challenge</p>
     </>
   );
 }

@@ -13,3 +13,6 @@ Create a React component that takes a list of items as a prop and displays each 
 
 Question 4:
 Create a simple form in React with an input field for a user’s name and a submit button. When the form is submitted, display an alert with the entered name. Make sure to prevent the form’s default refresh behavior on submit.
+
+Question 5:
+Create a React component that displays a counter with increment and decrement buttons. The counter should start at 0. When the counter reaches 10, disable the increment button, and when it reaches 0, disable the decrement button.
