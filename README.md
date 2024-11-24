@@ -16,3 +16,12 @@ Create a simple form in React with an input field for a user’s name and a subm
 
 Question 5:
 Create a React component that displays a counter with increment and decrement buttons. The counter should start at 0. When the counter reaches 10, disable the increment button, and when it reaches 0, disable the decrement button.
+
+Question 6:
+Create a React component that allows users to enter items into a shopping list. The component should have:
+
+- An input field where users can type the item name.
+- An “Add” button to add the entered item to the list.
+- A list that displays all the added items.
+- A “Remove” button next to each item that, when clicked, removes that item from the list.
+  Make sure to handle empty input cases (don’t add an item if the input is empty) and clear the input field after an item is added.
