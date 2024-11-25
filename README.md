@@ -25,3 +25,14 @@ Create a React component that allows users to enter items into a shopping list. 
 - A list that displays all the added items.
 - A “Remove” button next to each item that, when clicked, removes that item from the list.
   Make sure to handle empty input cases (don’t add an item if the input is empty) and clear the input field after an item is added.
+
+Question 7:
+Create a React component that renders a list of tasks. Each task should have:
+
+- An input field to update the task's name.
+- A "Save" button to save the updated task name.
+- A "Delete" button to remove the task from the list.
+  Requirements:
+- Initially, render three tasks in the list with sample names.
+- Ensure that updates to a task's name only apply when "Save" is clicked.
+- When a task is deleted, the remaining tasks should re-render correctly.

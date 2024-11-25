@@ -8,6 +8,7 @@ import Question3 from "./components/Question3.jsx";
 import Question4 from "./components/Question4.jsx";
 import Question5 from "./components/Question5.jsx";
 import Question6 from "./components/Question6.jsx";
+import Question7 from "./components/Question7.jsx";
 
 function App() {
   let countriesEA = [
@@ -42,7 +43,8 @@ function App() {
         {/*  <Question4 /> */}
 
         {/* <Question5 /> */}
-        <Question6 />
+        {/* <Question6 /> */}
+        <Question7 />
       </div>
     </>
   );
