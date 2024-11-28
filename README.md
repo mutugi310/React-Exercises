@@ -36,3 +36,19 @@ Create a React component that renders a list of tasks. Each task should have:
 - Initially, render three tasks in the list with sample names.
 - Ensure that updates to a task's name only apply when "Save" is clicked.
 - When a task is deleted, the remaining tasks should re-render correctly.
+
+Question 8:
+Create a React component that renders a list of books with the following features:
+
+- Initial List: The component should start with an initial list of three books, each having a title and an author.
+- Add Book: Allow users to add a new book by entering the title and author in input fields and clicking an "Add Book" button.
+- Delete Book: Each book in the list should have a "Delete" button that removes the book from the list.
+- Edit Book: Each book should have an "Edit" button. When clicked:
+- The book's title and author should become editable (showing input fields for both).
+- A "Save" button should appear, allowing the user to save the changes.
+
+Requirements:
+
+- Ensure that the changes only apply when "Save" is clicked.
+- Handle cases where the user tries to add a book with an empty title or author.
+- Ensure that when a book is deleted, the remaining list re-renders correctly.
